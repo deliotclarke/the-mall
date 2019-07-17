@@ -1,12 +1,13 @@
-﻿using System;
-
+﻿
 namespace TheMall
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DollarStore Dollarama = new DollarStore();
+
+            FoodStore Cinnabon = new FoodStore();
         }
     }
 }
